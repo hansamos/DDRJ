@@ -1,4 +1,0 @@
-qtl_mapping ( genetics) and qtl_mapping_epistasis ( IEEE)
-1.improve the input format Z and check missing : instead of being (-1,0,1), we can receive (AA, Aa, aa ) and convert
-
-
