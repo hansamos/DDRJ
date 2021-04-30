@@ -1,0 +1,2 @@
+1. make easier to input Z. Instead of receiving ( -1, 0, 1), we can receive (aa, Aa, AA) and convert to matrix with correct format and check missing 
+
