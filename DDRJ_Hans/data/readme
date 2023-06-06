@@ -1,1 +1,3 @@
+This file contains the real dataset that motivates the problem.
 
+x: rois , z: snps,  zn: encoded snps , y: binary outcome
