@@ -1,1 +1,5 @@
+This file contains the algorithm for variable selection
 
+ddrj_rois : select rois 
+ddrj_snps: select snps
+ddrj_rois_snps: joint selection of rois and snps. 
