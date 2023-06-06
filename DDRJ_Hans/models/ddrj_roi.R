@@ -27,14 +27,14 @@ source("../utils/get_rois.R")
 data_sim = simulate_data_roi(n=300, p=300, prop=0.85)
 
 ## let's do variable selection, so we use the full data
-#x= data_sim$x
-#y= data_sim$y
+x= data_sim$x
+y= data_sim$y
 
 ## for prediction using .85 train test 
-x= data_sim$xtrain
-y= data_sim$ytrain
-xtest= data_sim$xtest
-ytest = data_sim$ytest
+#x= data_sim$xtrain
+#y= data_sim$ytrain
+#xtest= data_sim$xtest
+#ytest = data_sim$ytest
 
 ## true beta for comparison
 beta_true= data_sim$beta_true 
