@@ -1,0 +1,17 @@
+# Description
+This repo contains codes to run the DDRJ for ROIs and SNPs selection.
+
+1. /data contains the real dataset that motivates the problem
+2. /model contains the implementation for the 3 algorithms ( **ddrj_roi** for rois selection, **ddrj_snp** for snps selection, **ddrj_roi_snp** for joint rois and snps selection)
+3. /utils contains some functions to simulate or retrieve the real dataset and other utility function
+
+# Code structure 
+
+Any of the **ddrj_roi**, **ddrj_snp**, **ddrj_roi_snp** follows the same structure
+1. simulate or retrieve real data 
+2. Define paramaters (number of mcmc chains, iterations)
+3. Run mcmc chains and check convergence 
+4. Get marginal posterior probability of inclusion of each variable  for variable selection
+5. Get Posterior mean and 95 Credible interval for the coefficients of selected variables, 
+6. Get posterior probability for the visited models
+7. Do Bayesian model averaging for prediction and compute MCE Aand AUC 
