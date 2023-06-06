@@ -1,1 +1,7 @@
+This file contains some utility functions
+
+get_rois.R: simulate rois data and get real roi data for running ddrj_roi
+get_snps.R: simulate snps data and get real snps data for running ddrj_snp
+get_rois_snps.R: simulate rois and snps data and get real roi and snps data for running ddrj_rois_snp
+kruskal.cpp: rcpp code to compute the KW statistics 
 
